@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// the variable 'name' is created and assigned a string value of 'Dane'
+// a conditiional statement checks to see if the variable 'name' equals 'Mary' which it does not, so
+// the conditional is false, meaning the variable 'name' is anything but 'Mary'
+// the console logs out 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// the variable 'secret' is created but undefined
+// the variable 'code' is created with a value of 123
+// a conditional statement checks to see if the variable 'code' is equal to 123 which it is, so
+// secret is defined as a string with a value of 'super' AND 'code' is multiplied by 2, value of 'code' is now 246
+// a conditional statement checks to see if 'code' is greater than 250 which it is not
+// console logs out "super"
 
 //CODE
 /*
@@ -70,10 +72,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// The following variables are created and assigned values, isStudent = a bolean value true, age with a number value 34, zip with a number value 554007
+// a conditional checks to see if 'isStudent' equals true AND if 'zip' is greater than 80000 which it is not so
+// an else if statement checks if 'isStudent' equals false OR 'age' is less than 30. Neither are true so
+// an else if statement checks if 'isStudent' equals true which it does so
+// console logs out 'Welcome to Prime!'
 
 //CODE
 /*
@@ -130,11 +133,15 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// colorOne should be set to 'blue'
+// colorTwo should be set to 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+//colorTwo being assigned to 'purple' is missing
+//Fix-- colorTwo = 'purple';
   colorOne = 'purple';
 }
 */
@@ -146,7 +153,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+// using || checks if one OR the other statement is true. 
+//Fix-- && for one AND the other being true
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,7 +167,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+//Currently checking if minAge is less than or equal to age
+//Fix-- age >= minAge
 if(minAge <= age) {
   console.log('no entry');
 } else {
